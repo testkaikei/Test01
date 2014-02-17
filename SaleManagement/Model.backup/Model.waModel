@@ -1,0 +1,214 @@
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "1",
+		"classes": {
+			"DataClass2": {
+				"panelColor": "#70CCC2",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": "25",
+						"Y": "20"
+					}
+				}
+			},
+			"Setting": {
+				"panelColor": "#CCC1D9",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"position": {
+						"X": "33",
+						"Y": "141"
+					}
+				}
+			},
+			"Customer": {
+				"panelColor": "#B2A2C7",
+				"panel": {
+					"pathVisible": "true",
+					"isOpen": "true",
+					"position": {
+						"X": "255",
+						"Y": "20"
+					}
+				}
+			}
+		},
+		"model": {
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Customer",
+			"className": "Customer",
+			"collectionName": "CustomerCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree"
+				},
+				{
+					"name": "Seq",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Address",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Zipcode",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Country",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Tel",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Fax",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Email",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"key": [
+				{
+					"name": "ID"
+				}
+			]
+		},
+		{
+			"name": "DataClass2",
+			"className": "DataClass2",
+			"collectionName": "DataClass2Collection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree"
+				}
+			],
+			"key": [
+				{
+					"name": "ID"
+				}
+			]
+		},
+		{
+			"name": "Setting",
+			"className": "Setting",
+			"collectionName": "SettingCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"indexKind": "btree"
+				},
+				{
+					"name": "companyName",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "furigana",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "postCode",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "address",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "tel",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "fax",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "email",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "url",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "logo",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				}
+			],
+			"key": [
+				{
+					"name": "ID"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
+	<group ID="01000000000000000000000000000000" name="Admin">
+		<include user="nhan" ID="E4CE95ED3E5A724DA9F5B78B255B411B"/>
+		<include user="vanteo" ID="353EB2F926EBB1489CC33F6113E22F5C"/>
+	</group>
+	<user ID="E4CE95ED3E5A724DA9F5B78B255B411B" name="nhan" fullName="Truong CHi Nhan" password="8017b139e22eedebcbe621f87e385ece"/>
+	<user ID="353EB2F926EBB1489CC33F6113E22F5C" name="vanteo" fullName="Tran van teo " password="19e7ca60845fa096ecd00ccf64d559c3"/>
+</directory>

@@ -1,0 +1,72 @@
+﻿#waf-body{
+	margin-top:150px;
+}
+#login1{
+	width:980px;	
+	margin:0 auto !important;	
+	position:inherit;
+	top:inherit;
+	height:500px;
+	display:none;
+}
+#container1{	
+	width:980px;	
+	margin:0 auto !important;	
+	position:inherit;;
+	top:inherit;
+	height:500px;	
+}
+#container1 .waf-login-body{
+	width:270px;
+	height:200px;
+	position:relative;
+	top:210px;
+	left:345px;	
+}
+#container1 .waf-login-body .waf-login-dialog-user{
+	width:100%;
+	margin:0px;
+	padding:0px;	
+	position:relative;
+	
+}
+#container1 .waf-login-body .waf-login-dialog-user label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:70px;
+	height:22px;
+	line-height:22px;
+}
+#container1 .waf-login-body .waf-login-dialog-user div input{
+	position:absolute;
+	top:0px;
+	left:75px;
+	width:200px;
+	height:22px;	
+	line-height:22px;
+}
+#container1 .waf-login-body .waf-login-dialog-password label{
+	position:absolute;
+	top:35px;
+	left:0px;
+	width:70px;
+	height:22px;
+	line-height:22px;
+}
+#container1 .waf-login-body .waf-login-dialog-password div input{
+	position:absolute;
+	top:35px;
+	left:75px;	
+	height:22px;	
+	line-height:22px;
+	width:200px;
+}
+#container1 .waf-login-body .waf-login-dialog-password div button{
+	position:absolute;
+	top:70px;
+	left:115px;	
+	height:22px;	
+	line-height:22px;
+	width: 60px;
+}
